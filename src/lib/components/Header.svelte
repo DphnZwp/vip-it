@@ -8,15 +8,15 @@
 	<nav>
 		<ul>
 			<li><a href="/">Home</a></li>
-			<li><a href="/">Over ons</a></li>
-			<li><a href="/">Contact</a></li>
+			<li><a href="/over-ons">Over ons</a></li>
+			<li><a href="/contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
 
 <style>
 	header {
-			padding: 1em 4em;
+			padding: 1em 8.75em;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
