@@ -9,7 +9,7 @@
 		<ul>
 			<li><a href="/">Home</a></li>
 			<li><a href="/over-ons">Over ons</a></li>
-			<li><a href="/contact">Contact</a></li>
+			<li><a class="btn-primary" href="/contact">Contact</a></li>
 		</ul>
 	</nav>
 </header>
@@ -48,6 +48,19 @@
 		a:hover {
 			color: var(--clr-light-purple);
 		}
+
+		.btn-primary {
+			padding: .75em 1.75em;
+			color: var(--clr-white);
+			background-color: var(--clr-purple);
+			border-radius: .5rem;
+		}
+
+		.btn-primary:hover {
+			color: var(--clr-white);
+			background-color: var(--clr-light-purple);
+		}
+
 	@media (min-width: 70em) {
 		header {
 			flex-direction: row;
