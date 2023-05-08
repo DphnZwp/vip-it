@@ -3,11 +3,9 @@
   <p>IT omscholing voor mensen met een visuele beperking</p>
   <ul>
     <li><a href="/">Home</a></li>
-    <li></li>
-    <li></li>
+    <li><a href="/">Over ons</a></li>
+    <li><a href="/">Contact</a></li>
   </ul>
-  <a href="/">Over ons</a>
-  <a href="/">Contact</a>
 </footer>
 
 <style>
@@ -16,12 +14,35 @@
   }
 
   footer {
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
     text-align: center;
+  }
+
+  ul {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    list-style-type: none;
+    justify-content: center;
   }
 
   a {
     color: black;
-    padding: 2em;
     text-decoration: none;
+  }
+
+  a:hover {
+			color: var(--clr-light-purple);
+		}
+
+  @media (min-width: 70em) {
+    ul {
+      flex-direction: row;
+      gap: 2em;
+    }
   }
 </style>
