@@ -1,3 +1,7 @@
+<script>
+  import Footer from "../lib/components/Footer.svelte";
+</script>
+
 <section class="hero">
 	<div>
 		<h1>VIP-IT</h1>
@@ -23,6 +27,9 @@
 	<p>Als deelnemer aan het pact vragen wij u om met ons mee te denken over en mee te werken aan het vormgeven van de aangepaste opleiding. Daarnaast vragen we u om uw invloed en netwerk in te zetten om werkgevers te enthousiasmeren mensen met een visuele beperking in hun organisatie op te nemen.</p>
 	<a class="btn-primary" href="/">Contact</a>
 </section>
+
+<Footer />
+
 <style>
 	.hero {
 		padding-left: 6em;
