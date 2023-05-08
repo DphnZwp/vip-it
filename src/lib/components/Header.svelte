@@ -1,8 +1,8 @@
 <header>
 	<div>
 		<a class="skip-nav-link" href="#main-content">Navigatie overslaan</a>
-		<a href="/">
-			<img src="/vip-it-logo.png" alt="">
+		<a aria-label="Logo vip-it" href="/">
+			<img aria-hidden="true" src="/vip-it-logo.png" alt="Logo vip-it">
 		</a>
 	</div>
 	<nav>
