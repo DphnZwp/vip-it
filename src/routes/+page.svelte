@@ -3,14 +3,14 @@
 		<h1>VIP-IT</h1>
 		<p class="big-paragraph">Een toegankelijk IT-omscholingsprogramma met baangarantie voor mensen met een visuele beperking.</p>
 	</div>
-	<img src="/images/coding-room.png" alt="">
+	<img aria-hidden="true" src="/images/coding-room.png" alt="Kamer met studenten die coderen">
 </section>
 
 <section class="collaboration">
 	<div class="logos">
-		<img src="/images/bartimeus-groen.png" alt="">
-		<img src="/images/incluvisie.png" alt="">
-		<img src="/images/hogeschool-van-amsterdam.png" alt="">
+		<img src="/images/bartimeus-groen.png" alt="Logo Bartimeus">
+		<img src="/images/incluvisie.png" alt="Logo Incluvisie">
+		<img src="/images/hogeschool-van-amsterdam.png" alt="Logo Hogeschool">
 	</div>
 	<div class="information">
 		<h2>Wie zijn wij en wat willen wij?</h2>
@@ -24,7 +24,13 @@
 	<a class="btn-primary" href="/">Contact</a>
 </section>
 <style>
+	h2 {
+		margin-bottom: .5rem;
+	}
+
 	.hero {
+		padding-left: 2em;
+		padding-right: 2em;
 		display: grid;
 		grid-template-columns: 1fr;
 		align-items: center;
@@ -42,9 +48,9 @@
 
 	.collaboration {
 		padding-top: 4em;
-		padding-right: 6em;
+		padding-right: 2em;
 		padding-bottom: 4em;
-		padding-left: 6em;
+		padding-left: 2em;
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: 2em;
@@ -85,6 +91,7 @@
 	@media (min-width: 70em) {
 		.hero {
 			padding-left: 6em;
+			padding-right: 0;
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
 		}
