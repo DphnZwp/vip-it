@@ -1,3 +1,7 @@
+<script>
+	import Contact from '$lib/components/Contact.svelte';
+</script>
+
 <section class="hero">
 	<div>
 		<h1>VIP-IT</h1>
@@ -18,11 +22,7 @@
 	</div>
 </section>
 
-<section class="contact">
-	<h2>Doet u met ons mee?</h2>
-	<p>Als deelnemer aan het pact vragen wij u om met ons mee te denken over en mee te werken aan het vormgeven van de aangepaste opleiding. Daarnaast vragen we u om uw invloed en netwerk in te zetten om werkgevers te enthousiasmeren mensen met een visuele beperking in hun organisatie op te nemen.</p>
-	<a class="btn-primary" href="/">Contact</a>
-</section>
+<Contact />
 <style>
 	h2 {
 		margin-bottom: .5rem;
@@ -55,37 +55,6 @@
 		grid-template-columns: 1fr;
 		gap: 2em;
 		align-items: center;
-	}
-
-	.contact {
-		padding-top: 4em;
-		padding-right: 2em;
-		padding-bottom: 4em;
-		padding-left: 2em;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background-color: var(--clr-blue);
-	}
-
-	.contact p {
-		margin-bottom: 1em;
-		max-width: 38em;
-	}
-
-	.btn-primary {
-		padding: .75em 1.75em;
-		color: var(--clr-white);
-		background-color: var(--clr-purple);
-		border-radius: .5rem;
-		width: max-content;
-		text-decoration: none;
-	}
-
-	.btn-primary:hover {
-		color: var(--clr-white);
-		background-color: var(--clr-light-purple);
 	}
 
 	@media (min-width: 70em) {

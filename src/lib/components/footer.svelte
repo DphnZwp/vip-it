@@ -1,7 +1,11 @@
 <footer>
   <p class="logo">vip-it.nl</p>
   <p>IT omscholing voor mensen met een visuele beperking</p>
-  <a href="/">Home</a>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li></li>
+    <li></li>
+  </ul>
   <a href="/">Over ons</a>
   <a href="/">Contact</a>
 </footer>
