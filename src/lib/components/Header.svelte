@@ -16,7 +16,7 @@
 
 <style>
 	header {
-			padding: 1em 8.75em;
+			padding: 1em;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -26,6 +26,7 @@
 
 		ul {
 			display: flex;
+			align-items: center;
 			list-style-type: none;
 			gap: 2em;
 		}
@@ -54,6 +55,7 @@
 			color: var(--clr-white);
 			background-color: var(--clr-purple);
 			border-radius: .5rem;
+			display: block;
 		}
 
 		.btn-primary:hover {
@@ -63,6 +65,7 @@
 
 	@media (min-width: 70em) {
 		header {
+			padding: 1em 6em;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
