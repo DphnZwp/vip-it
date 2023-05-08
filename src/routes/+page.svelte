@@ -1,7 +1,3 @@
-<script>
-  import Footer from "../lib/components/Footer.svelte";
-</script>
-
 <section class="hero">
 	<div>
 		<h1>VIP-IT</h1>
@@ -27,16 +23,16 @@
 	<p>Als deelnemer aan het pact vragen wij u om met ons mee te denken over en mee te werken aan het vormgeven van de aangepaste opleiding. Daarnaast vragen we u om uw invloed en netwerk in te zetten om werkgevers te enthousiasmeren mensen met een visuele beperking in hun organisatie op te nemen.</p>
 	<a class="btn-primary" href="/">Contact</a>
 </section>
-
-<Footer />
-
 <style>
 	.hero {
-		padding-left: 6em;
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: 1fr;
 		align-items: center;
 		gap: 3em;
+	}
+
+	.hero img {
+			width: 100%;
 	}
 
 	.big-paragraph {
@@ -50,24 +46,16 @@
 		padding-bottom: 4em;
 		padding-left: 6em;
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: 1fr;
 		gap: 2em;
 		align-items: center;
 	}
 
-	.logos {
-		display: grid;
-		grid-column: 1/2;
-		gap: 2em;
-	}
-
-	.information {
-		grid-column: 2/5;
-	}
-
 	.contact {
 		padding-top: 4em;
+		padding-right: 2em;
 		padding-bottom: 4em;
+		padding-left: 2em;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
@@ -92,5 +80,49 @@
 	.btn-primary:hover {
 		color: var(--clr-white);
 		background-color: var(--clr-light-purple);
+	}
+
+	@media (min-width: 70em) {
+		.hero {
+			padding-left: 6em;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+		}
+
+		.hero img {
+			width: auto;
+		}
+
+		.collaboration {
+			padding-top: 4em;
+			padding-right: 6em;
+			padding-bottom: 4em;
+			padding-left: 6em;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 2em;
+			align-items: center;
+		}
+
+		.logos {
+			display: grid;
+			grid-column: 1/2;
+			gap: 2em;
+		}
+
+		.collaboration {
+			padding-top: 4em;
+			padding-right: 6em;
+			padding-bottom: 4em;
+			padding-left: 6em;
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 2em;
+			align-items: center;
+		}
+
+		.information {
+			grid-column: 2/5;
+		}
 	}
 </style>
