@@ -13,11 +13,12 @@
     <h3>Ideeën of suggesties?</h3>
     <button type="button">Stuur ons een mail</button>
   </div>
-  <img src="/" alt="image">
+  <img src="/" alt="image" />
 </section>
 
 <style>
   .contact {
+    margin-top: 4em;
     margin-left: 6em;
   }
 
@@ -25,8 +26,12 @@
     width: 60em;
   }
 
-  
-
-
- 
+  button {
+    background-color: #4b3d64;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
 </style>
