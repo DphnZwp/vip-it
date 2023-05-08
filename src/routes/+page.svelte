@@ -110,17 +110,6 @@
 			gap: 2em;
 		}
 
-		.collaboration {
-			padding-top: 4em;
-			padding-right: 6em;
-			padding-bottom: 4em;
-			padding-left: 6em;
-			display: grid;
-			grid-template-columns: 1fr;
-			gap: 2em;
-			align-items: center;
-		}
-
 		.information {
 			grid-column: 2/5;
 		}
