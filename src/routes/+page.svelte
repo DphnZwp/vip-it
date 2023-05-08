@@ -2,6 +2,10 @@
 	import Contact from '$lib/components/Contact.svelte';
 </script>
 
+<svelte:head>
+	<title>vip-it.nl - IT omscholing voor mensen met een visuele beperking</title>
+</svelte:head>
+
 <section class="hero">
 	<div>
 		<h1>VIP-IT</h1>

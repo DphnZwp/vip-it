@@ -10,6 +10,7 @@
 
 <style>
   .logo {
+    font-weight: 500;
     color: rgb(193, 3, 193);
   }
 
