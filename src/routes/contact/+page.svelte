@@ -1,4 +1,6 @@
-<script></script>
+<script>
+  import Image from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/vip-it/src/assest/Working-on-different-screens.webp";
+</script>
 
 <section class="contact">
   <div class="hero">
@@ -13,16 +15,15 @@
     <h4>Ideeën of suggesties?</h4>
     <button type="button">Stuur ons een email</button>
   </div>
-  <img
-    src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/vip-it/src/assest/Working-on-different-screens.webp"
-    alt="laptop students"
-  />
 </section>
+
+<img src={Image} alt="student-laptop" width="100%" />
 
 <style>
   .contact {
     margin-top: 4em;
-    margin-left: 10em;
+    margin-left: 6em;
+    float: left;
   }
 
   .hero {
@@ -37,5 +38,11 @@
     margin-top: 2em;
     margin-bottom: 1em;
     width: 20em;
+  }
+
+  img {
+    float: right;
+    width: 35em;
+    margin-top: 4em;
   }
 </style>
