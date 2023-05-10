@@ -1,11 +1,6 @@
-<script>
-  import Image from "/Users/emonasantiago/Documents/choices-choices-the-tech-stack/vip-it/src/assest/Working-on-different-screens.webp";
-</script>
-
 <section class="contact">
   <div class="hero">
     <h1>Doe met ons mee?</h1>
-
     <p>
       Als deelnemer aan het pact vragen wij u om met ons mee te denken over en
       mee te werken aan het vormgeven van de aangepaste opleiding. Daarnaast
@@ -16,19 +11,19 @@
     <h4>Ideeën of suggesties?</h4>
     <button type="button">Stuur ons een email</button>
   </div>
+  <img src="/images/working-on-different-screens.webp" alt="student-laptop" />
 </section>
-
-<img src={Image} alt="student-laptop" width="100%" />
-
 <style>
   .contact {
-    margin-top: 4em;
     margin-left: 6em;
-    float: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 4em;
   }
 
-  .hero {
-    width: 60em;
+  .contact img {
+    width: 100%;
   }
 
   button {
