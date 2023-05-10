@@ -9,11 +9,27 @@
       nemen.
     </p>
     <h4>Ideeën of suggesties?</h4>
-    <button type="button">Stuur ons een email</button>
+    <button
+      ><a
+        href="mailto:%20info@vip-it.nl"
+        target="_blank"
+        class="elementor-button-link elementor-button elementor-size-sm"
+        role="button"
+      >
+        <span class="elementor-button-content-wrapper">
+          <span class="elementor-button-text">Stuur ons een mail</span>
+        </span>
+      </a></button
+    >
   </div>
   <img src="/images/working-on-different-screens.webp" alt="student-laptop" />
 </section>
+
 <style>
+  a {
+    text-decoration: none;
+    color: white;
+  }
   .contact {
     margin-left: 6em;
     display: grid;
