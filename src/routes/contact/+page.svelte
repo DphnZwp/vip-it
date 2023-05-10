@@ -1,5 +1,5 @@
 <section class="contact">
-  <div class="hero">
+  <div>
     <h1>Doe met ons mee?</h1>
     <p>
       Als deelnemer aan het pact vragen wij u om met ons mee te denken over en
