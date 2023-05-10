@@ -1,8 +1,8 @@
 <header>
 	<div>
 		<a class="skip-nav-link" href="#main-content">Navigatie overslaan</a>
-		<a href="/">
-			<img src="/vip-it-logo.png" alt="">
+		<a aria-label="Logo vip-it" href="/">
+			<img aria-hidden="true" src="/vip-it-logo.png" alt="Logo vip-it">
 		</a>
 	</div>
 	<nav>
@@ -16,7 +16,7 @@
 
 <style>
 	header {
-			padding: 1em 8.75em;
+			padding: 1em;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -26,6 +26,7 @@
 
 		ul {
 			display: flex;
+			align-items: center;
 			list-style-type: none;
 			gap: 2em;
 		}
@@ -54,6 +55,7 @@
 			color: var(--clr-white);
 			background-color: var(--clr-purple);
 			border-radius: .5rem;
+			display: block;
 		}
 
 		.btn-primary:hover {
@@ -63,6 +65,7 @@
 
 	@media (min-width: 70em) {
 		header {
+			padding: 1em 6em;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
