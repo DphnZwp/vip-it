@@ -5,7 +5,7 @@
 </section>
 
 <style>
-		.contact {
+	.contact {
 		padding-top: 4em;
 		padding-right: 2em;
 		padding-bottom: 4em;
@@ -20,19 +20,5 @@
 	.contact p {
 		margin-bottom: 1em;
 		max-width: 38em;
-	}
-
-	.btn-primary {
-		padding: .75em 1.75em;
-		color: var(--clr-white);
-		background-color: var(--clr-purple);
-		border-radius: .5rem;
-		width: max-content;
-		text-decoration: none;
-	}
-
-	.btn-primary:hover {
-		color: var(--clr-white);
-		background-color: var(--clr-light-purple);
 	}
 </style>
