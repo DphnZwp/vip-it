@@ -1,20 +1,24 @@
 <script>
-  import Footer from "../lib/components/Footer.svelte";
+	import Contact from '$lib/components/Contact.svelte';
 </script>
+
+<svelte:head>
+	<title>vip-it.nl - IT omscholing voor mensen met een visuele beperking</title>
+</svelte:head>
 
 <section class="hero">
 	<div>
 		<h1>VIP-IT</h1>
 		<p class="big-paragraph">Een toegankelijk IT-omscholingsprogramma met baangarantie voor mensen met een visuele beperking.</p>
 	</div>
-	<img src="/images/coding-room.png" alt="">
+	<img aria-hidden="true" src="/images/coding-room.png" alt="Kamer met studenten die coderen">
 </section>
 
 <section class="collaboration">
 	<div class="logos">
-		<img src="/images/bartimeus-groen.png" alt="">
-		<img src="/images/incluvisie.png" alt="">
-		<img src="/images/hogeschool-van-amsterdam.png" alt="">
+		<img src="/images/bartimeus-groen.png" alt="Logo Bartimeus">
+		<img src="/images/incluvisie.png" alt="Logo Incluvisie">
+		<img src="/images/hogeschool-van-amsterdam.png" alt="Logo Hogeschool">
 	</div>
 	<div class="information">
 		<h2>Wie zijn wij en wat willen wij?</h2>
@@ -22,21 +26,23 @@
 	</div>
 </section>
 
-<section class="contact">
-	<h2>Doet u met ons mee?</h2>
-	<p>Als deelnemer aan het pact vragen wij u om met ons mee te denken over en mee te werken aan het vormgeven van de aangepaste opleiding. Daarnaast vragen we u om uw invloed en netwerk in te zetten om werkgevers te enthousiasmeren mensen met een visuele beperking in hun organisatie op te nemen.</p>
-	<a class="btn-primary" href="/">Contact</a>
-</section>
-
-<Footer />
-
+<Contact />
 <style>
+	h2 {
+		margin-bottom: .5rem;
+	}
+
 	.hero {
-		padding-left: 6em;
+		padding-left: 2em;
+		padding-right: 2em;
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: 1fr;
 		align-items: center;
 		gap: 3em;
+	}
+
+	.hero img {
+			width: 100%;
 	}
 
 	.big-paragraph {
@@ -46,51 +52,46 @@
 
 	.collaboration {
 		padding-top: 4em;
-		padding-right: 6em;
+		padding-right: 2em;
 		padding-bottom: 4em;
-		padding-left: 6em;
+		padding-left: 2em;
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: 1fr;
 		gap: 2em;
 		align-items: center;
 	}
 
-	.logos {
-		display: grid;
-		grid-column: 1/2;
-		gap: 2em;
-	}
+	@media (min-width: 70em) {
+		.hero {
+			padding-left: 6em;
+			padding-right: 0;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+		}
 
-	.information {
-		grid-column: 2/5;
-	}
+		.hero img {
+			width: auto;
+		}
 
-	.contact {
-		padding-top: 4em;
-		padding-bottom: 4em;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background-color: var(--clr-blue);
-	}
+		.collaboration {
+			padding-top: 4em;
+			padding-right: 6em;
+			padding-bottom: 4em;
+			padding-left: 6em;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 2em;
+			align-items: center;
+		}
 
-	.contact p {
-		margin-bottom: 1em;
-		max-width: 38em;
-	}
+		.logos {
+			display: grid;
+			grid-column: 1/2;
+			gap: 2em;
+		}
 
-	.btn-primary {
-		padding: .75em 1.75em;
-		color: var(--clr-white);
-		background-color: var(--clr-purple);
-		border-radius: .5rem;
-		width: max-content;
-		text-decoration: none;
-	}
-
-	.btn-primary:hover {
-		color: var(--clr-white);
-		background-color: var(--clr-light-purple);
+		.information {
+			grid-column: 2/5;
+		}
 	}
 </style>
