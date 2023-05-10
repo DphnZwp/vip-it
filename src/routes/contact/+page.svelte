@@ -10,16 +10,19 @@
       enthousiasmeren mensen met een visuele beperking in hun organisatie op te
       nemen.
     </p>
-    <h3>Ideeën of suggesties?</h3>
-    <button type="button">Stuur ons een mail</button>
+    <h4>Ideeën of suggesties?</h4>
+    <button type="button">Stuur ons een email</button>
   </div>
-  <img src="/" alt="image" />
+  <img
+    src="/Users/emonasantiago/Documents/choices-choices-the-tech-stack/vip-it/src/assest/Working-on-different-screens.webp"
+    alt="laptop students"
+  />
 </section>
 
 <style>
   .contact {
     margin-top: 4em;
-    margin-left: 6em;
+    margin-left: 10em;
   }
 
   .hero {
@@ -33,5 +36,6 @@
     border-radius: 5px;
     margin-top: 2em;
     margin-bottom: 1em;
+    width: 20em;
   }
 </style>
