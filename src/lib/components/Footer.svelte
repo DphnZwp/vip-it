@@ -3,8 +3,8 @@
   <p>IT omscholing voor mensen met een visuele beperking</p>
   <ul>
     <li><a href="/">Home</a></li>
-    <li><a href="/">Over ons</a></li>
-    <li><a href="/">Contact</a></li>
+    <li><a href="/over-ons">Over ons</a></li>
+    <li><a href="/contact">Contact</a></li>
   </ul>
 </footer>
 

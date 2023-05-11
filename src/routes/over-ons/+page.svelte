@@ -1,11 +1,13 @@
 <section class="informatie-sectie">
   <h1>Waarom VIP-IT?</h1>
-  <h3>
-    Slechts 29% van de mensen met een visuele beperking heeft een baan. De
-    initiatiefnemers/samenwerkende partners achter VIP-IT, willen ervoor zorgen
-    dat dit percentage hoger wordt en dat meer mensen met een visuele beperking
-    aan het werk kunnen.
-  </h3>
+  <p class="intro">
+    <strong>
+      Slechts 29% van de mensen met een visuele beperking heeft een baan. De
+      initiatiefnemers/samenwerkende partners achter VIP-IT, willen ervoor zorgen
+      dat dit percentage hoger wordt en dat meer mensen met een visuele beperking
+      aan het werk kunnen.
+    </strong>
+  </p>
   <p>
     Dit doen wij door het opzetten van een toegankelijk IT-omscholingsprogramma
     met baangarantie. Dit betekent dat deelnemers na het succesvol afronden van
@@ -57,22 +59,23 @@
 </section>
 <style>
   .informatie-sectie {
-    padding: 20em;
     padding-top: 3em;
+    padding-right: 15em;
     padding-bottom: 6em;
+    padding-left: 15em;
   }
-
   h1 {
     text-align: center;
   }
-
+  .intro {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  strong {
+    font-weight: 500;
+  }
   h2 {
     padding-top: 1em;
-  }
-
-  h3 {
-    text-align: center;
-    padding-bottom: 2em;
-    font-weight: lighter;
   }
 </style>
