@@ -10,8 +10,6 @@
     </p>
     <h2>Ideeën of suggesties?</h2>
     <a class="btn-primary" href="mailto:%20info@vip-it.nl">Stuur ons een email</a>
-    <h2>Ideeën of suggesties?</h2>
-    <a class="btn-primary" href="mailto:%20info@vip-it.nl">Stuur ons een email</a>
   </div>
   <img src="/images/working-on-different-screens.webp" alt="student-laptop" />
 </section>
