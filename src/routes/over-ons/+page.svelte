@@ -67,11 +67,13 @@
   h1 {
     text-align: center;
   }
+  
   .intro {
     margin-bottom: 2rem;
     font-size: 2rem;
     text-align: center;
   }
+
   strong {
     font-weight: 500;
   }

@@ -20,7 +20,7 @@
 		margin-bottom: 1em;
 		max-width: 38em;
 	}
-
+</style>
 	.btn-primary {
 		padding: .75em 1.75em;
 		color: var(--clr-white);

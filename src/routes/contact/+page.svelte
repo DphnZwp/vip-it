@@ -10,6 +10,8 @@
     </p>
     <h2>Ideeën of suggesties?</h2>
     <a class="btn-primary" href="mailto:%20info@vip-it.nl">Stuur ons een email</a>
+    <h2>Ideeën of suggesties?</h2>
+    <a class="btn-primary" href="mailto:%20info@vip-it.nl">Stuur ons een email</a>
   </div>
   <img src="/images/working-on-different-screens.webp" alt="student-laptop" />
 </section>
@@ -18,6 +20,7 @@
     text-decoration: none;
     color: white;
   }
+
   .contact {
     margin-left: 6em;
     display: grid;
@@ -25,6 +28,10 @@
     align-items: center;
     gap: 8em;
   }
+  .contact p {
+    margin-bottom: 2rem;
+  }
+
   .contact p {
     margin-bottom: 2rem;
   }
