@@ -55,7 +55,6 @@
     afronding start de baan bij de werkgever.
   </p>
 </section>
-
 <style>
   .informatie-sectie {
     padding: 20em;
