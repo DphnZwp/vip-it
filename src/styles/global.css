@@ -42,3 +42,17 @@ a {
 	font-size: 1.1875rem;
 	font-weight: 500;
 }
+
+.btn-primary {
+	padding: .75em 1.75em;
+	color: var(--clr-white);
+	background-color: var(--clr-purple);
+	border-radius: .5rem;
+	width: max-content;
+	text-decoration: none;
+}
+
+.btn-primary:hover {
+	color: var(--clr-white);
+	background-color: var(--clr-light-purple);
+}

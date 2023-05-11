@@ -3,11 +3,14 @@
   <p>IT omscholing voor mensen met een visuele beperking</p>
   <ul>
     <li><a href="/">Home</a></li>
+    <li><a href="/over-ons">Over ons</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</footer>
     <li><a href="/">Over ons</a></li>
     <li><a href="/">Contact</a></li>
   </ul>
 </footer>
-
 <style>
   .logo {
     font-weight: 500;
