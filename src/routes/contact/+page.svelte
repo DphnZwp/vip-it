@@ -13,7 +13,6 @@
   </div>
   <img src="/images/working-on-different-screens.webp" alt="student-laptop" />
 </section>
-
 <style>
   a {
     text-decoration: none;
