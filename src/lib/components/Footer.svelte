@@ -7,6 +7,10 @@
     <li><a href="/contact">Contact</a></li>
   </ul>
 </footer>
+    <li><a href="/">Over ons</a></li>
+    <li><a href="/">Contact</a></li>
+  </ul>
+</footer>
 <style>
   .logo {
     font-weight: 500;

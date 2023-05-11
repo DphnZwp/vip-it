@@ -22,3 +22,17 @@
 		max-width: 38em;
 	}
 </style>
+	.btn-primary {
+		padding: .75em 1.75em;
+		color: var(--clr-white);
+		background-color: var(--clr-purple);
+		border-radius: .5rem;
+		width: max-content;
+		text-decoration: none;
+	}
+
+	.btn-primary:hover {
+		color: var(--clr-white);
+		background-color: var(--clr-light-purple);
+	}
+</style>
