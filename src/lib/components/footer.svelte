@@ -7,7 +7,6 @@
     <li><a href="/contact">Contact</a></li>
   </ul>
 </footer>
-
 <style>
   .logo {
     font-weight: 500;
