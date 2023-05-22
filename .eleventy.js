@@ -1,5 +1,4 @@
 module.exports = eleventyConfig => {
-
   function configureMarkdownIt() {
     return require("markdown-it")({ html: true })
       .use(require('markdown-it-container'), 'dynamic', {
