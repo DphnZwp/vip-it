@@ -17,6 +17,13 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+main {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 2em;
+}
+
 h1,
 h2,
 h3,
@@ -117,6 +124,56 @@ a:hover {
 .btn-primary:hover {
 	color: var(--clr-white);
 	background-color: var(--clr-light-purple);
+}
+
+section:first-child p{
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+section:nth-child(even) {
+	padding-top: 2em;
+	padding-right: 6em;
+	padding-bottom: 2em;
+}
+
+section:nth-child(odd) {
+	padding-top: 2em;
+	padding-left: 6em;
+	padding-bottom: 2em;
+}
+
+section:last-child {
+	padding: 2em 0;
+	text-align: center;
+	grid-column: 1/3;
+	background-color: var(--clr-blue);
+	width: 100%;
+}
+
+section:last-child p {
+	margin: 0 auto;
+	max-width: 45em;
+}
+
+section:last-child a {
+	margin: 0 auto;
+	padding: .75em 1.75em;
+	color: var(--clr-white);
+	background-color: var(--clr-purple);
+	border-radius: .5rem;
+	width: max-content;
+	text-decoration: none;
+	display: block;
+}
+
+section:last-child a:hover {
+	color: var(--clr-white);
+	background-color: var(--clr-light-purple);
+}
+
+img {
+	margin-bottom: 1em;
 }
 
 @media (min-width: 70em) {

@@ -16,10 +16,10 @@ module.exports = eleventyConfig => {
 
   eleventyConfig.setLibrary("md", configureMarkdownIt());
 	eleventyConfig.addPassthroughCopy('./css/')
-	eleventyConfig.addPassthroughCopy('./images/')
+	eleventyConfig.addPassthroughCopy('./content/images/')
 
 	eleventyConfig.addWatchTarget('./css/')
-  eleventyConfig.addWatchTarget('./imgages/')
+  eleventyConfig.addWatchTarget('./content/images/')
 
   return {
 		dir: {
