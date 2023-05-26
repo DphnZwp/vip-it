@@ -80,6 +80,10 @@ header {
 	width: 100%;
 }
 
+header a:nth-child(2){
+	height: 1.875rem;
+}
+
 header img {
 	margin-bottom: 0;
 }
@@ -123,7 +127,7 @@ a:hover {
 	background-color: var(--clr-light-purple);
 }
 
-section:first-child p{
+section:first-child p {
 	font-size: 1.5rem;
 	font-weight: 500;
 }
