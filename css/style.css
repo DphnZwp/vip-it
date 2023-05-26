@@ -127,9 +127,20 @@ a:hover {
 	background-color: var(--clr-light-purple);
 }
 
+section {
+	padding-right: 2rem;
+	padding-left: 2rem;
+}
+
 section:first-child p {
+	margin-bottom: 2rem;
 	font-size: 1.5rem;
 	font-weight: 500;
+}
+
+section:last-child {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 section:last-child p {
