@@ -80,6 +80,10 @@ header {
 	width: 100%;
 }
 
+header img {
+	margin-bottom: 0;
+}
+
 ul {
 	display: flex;
 	align-items: center;
