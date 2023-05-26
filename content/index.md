@@ -1,6 +1,5 @@
 ---
-title: vip-it.nl - IT omscholing voor mensen met een visuele beperking
-layout: "base.njk"
+layout: "home.njk"
 ---
 
 :::
