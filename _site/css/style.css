@@ -1,0 +1,14 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+:root {
+	--clr-light-purple: #5f4e80;
+	--clr-purple: #4B3D64;
+	--clr-blue: #E2EFF3;
+	--clr-black: #000;
+	--clr-white: #fff;
+}
