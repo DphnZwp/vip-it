@@ -9,11 +9,9 @@ Een toegankelijk IT-omscholingsprogramma met baangarantie voor mensen met een vi
 
 ![gkgkgk](/images/coding-room.png)
 
-:::
 ![gkgkgk](/images/bartimeus-groen.png)
 ![gkgkgk](/images/incluvisie.png)
 ![gkgkgk](/images/hogeschool-van-amsterdam.png)
-:::
 
 :::
 ## Wie zijn wij en wat willen wij?
