@@ -1,13 +1,28 @@
 {
   "name": "vip-it",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.html",
+  "version": "1.0.0",
+  "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",
+  "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DphnZwp/vip-it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DphnZwp/vip-it/issues"
+  },
+  "homepage": "https://github.com/DphnZwp/vip-it#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "dependencies": {
+    "markdown-it": "^13.0.1",
+    "markdown-it-container": "^3.0.0"
   }
 }
