@@ -19,7 +19,6 @@ p:nth-child(2) img:first-child {
 
 section:last-child {
 	margin-top: 2rem;
-	margin-bottom: 2rem;
 	padding: 2rem 2rem;
 	text-align: center;
 	background-color: var(--clr-blue);

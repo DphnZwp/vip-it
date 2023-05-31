@@ -53,8 +53,8 @@ a {
 }
 
 .btn-primary:hover {
-	color: var(--clr-white);
-	background-color: var(--clr-white);
+	color: var(--clr-black);
+	background-color: transparent;
 }
 
 header {
