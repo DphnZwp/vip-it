@@ -1,0 +1,61 @@
+---
+layout: "over-ons.njk"
+---
+
+:::
+# Waarom VIP-IT?
+**Slechts 29% van de mensen met een visuele beperking heeft een baan. De
+initiatiefnemers/samenwerkende partners achter VIP-IT, willen ervoor
+zorgen dat dit percentage hoger wordt en dat meer mensen met een
+visuele beperking aan het werk kunnen.**
+
+Dit doen wij door het opzetten van een toegankelijk IT-omscholingsprogramma
+met baangarantie. Dit betekent dat deelnemers na het succesvol afronden van
+de omscholing bij een werkgever aan de slag kunnen als softwareontwikkelaar.
+Dit beroep is veelgevraagd binnen de al krappe IT-sector en bedrijven hebben
+daardoor veel openstaande vacatures.
+
+Onderweg naar dat resultaat, leren wij en brengen wij kansen en
+oplossingsrichtingen in kaart om de (hernieuwde) stap van
+onderwijs/omscholing naar arbeidsmarkt voor werknemers met een visuele
+beperking te vereenvoudigen. En de ervaringen die wij daarin opdoen, maken
+wij bruikbaar en inzetbaar voor het inclusief maken van overige
+opleidingsprogramma’s.
+
+## Nú is het moment
+De krapte op de IT-arbeidsmarkt is groot. Mensen met een visuele beperking
+willen graag aan de slag. Het omscholingstraject van VIP-IT biedt daarom
+alleen maar kansen. Voor kandidaten de kans op een nieuwe baan. Voor
+werkgevers de kans om nieuw IT-talent aan zich te binden en te laten zien
+hoe belangrijk het is om ook mensen met een beperking aan het werk te laten.
+
+## Wat houdt het project in?
+VIP-IT wil het bestaande IT-omscholingsprogramma Make IT Work toegankelijk 
+maken voor mensen die slechtziend of blind zijn. VIP staat voor Visually 
+Impaired Person, wat zoveel betekent als mensen met een visuele beperking. 
+VIP-IT bouwt voort op de ervaring, het netwerk en de succesvolle reputatie 
+van Make IT Work. We starten met het programma Software Development bij de 
+Hogeschool van Amsterdam. Na de eerste fase willen we verder opschalen naar 
+een breder en landelijk aanbod van IT-omscholing voor mensen met een 
+(visuele) beperking.
+
+## Wat is Make IT Work?
+Make IT Work heeft ervoor gezorgd dat inmiddels meer dan 1000 personen zich 
+hebben laten omscholen naar een nieuwe carrière als IT-professional. Tijdens 
+het omscholingsprogramma wordt de kandidaat stap-voor-stap meegenomen 
+richting een nieuwe carrière in de IT-sector. Door het inzichtelijk maken 
+van de voorkeuren, interesses en motivatie van een kandidaat, wordt 
+duidelijk of een IT-baan bij de kandidaat past. Ook wordt de kandidaat 
+gekoppeld aan een toekomstig werkgever. Nadat de kandidaat en de werkgever 
+afspraken hebben gemaakt over de toekomstige baan, wordt de kandidaat
+omgeschoold. Dit onderwijs wordt aangeboden door de Hogeschool van
+Amsterdam. De omscholing duurt ongeveer 5 maanden. Na een succesvolle
+afronding start de baan bij de werkgever.
+:::
+
+:::
+## Doet u met ons mee?
+Als deelnemer aan het pact vragen wij u om met ons mee te denken over en mee te werken aan het vormgeven van de aangepaste opleiding. Daarnaast vragen we u om uw invloed en netwerk in te zetten om werkgevers te enthousiasmeren mensen met een visuele beperking in hun organisatie op te nemen.
+
+[Contact](/contact)
+:::
