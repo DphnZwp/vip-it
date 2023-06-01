@@ -41,8 +41,10 @@ section:last-child a {
 }
 
 section:last-child a:hover {
-	color: var(--clr-white);
-	background-color: var(--clr-light-purple);
+	color: var(--clr-purple);
+	background-color: var(--clr-white);
+	box-shadow: 0 0 0 2px var(--clr-purple);
+	cursor: pointer;
 }
 
 @media (min-width: 70em) {
