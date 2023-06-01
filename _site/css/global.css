@@ -32,6 +32,7 @@ h1 {
 
 h2 {
 	font-size: 3.125rem;
+	font-weight: 600;
 }
 
 p {
@@ -53,8 +54,10 @@ a {
 }
 
 .btn-primary:hover {
-	color: var(--clr-black);
+	color: var(--clr-purple);
 	background-color: transparent;
+	box-shadow: 0 0 0 2px var(--clr-purple);
+	cursor: pointer;
 }
 
 header {

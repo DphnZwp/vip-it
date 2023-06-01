@@ -11,7 +11,7 @@ enthousiasmeren mensen met een visuele beperking in hun organisatie op te
 nemen.
 
 ## Ideeën of suggesties?
-[Stuur ons een email](mailto:%20info@vip-it.nl)
+Stuur ons een email.
 :::
 
 ![Working students on laptop](https://vip-it-sveltekit.vercel.app/images/working-on-different-screens.webp)
