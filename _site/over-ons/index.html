@@ -85,9 +85,16 @@ afronding start de baan bij de werkgever.</p>
 		<li><a href="/contact">Contact</a></li>
 	</ul>
 </footer>
+    <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
- <script>
-    window.CMS_MANUAL_INIT = true;
-	</script>
-  <script src="config.yml"></script>
 </html>
