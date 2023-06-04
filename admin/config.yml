@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
+media_folder: "_site/images"
+public_folder: "/images"
+
 collections:
   - name: pages
     label: Pages
@@ -11,8 +14,8 @@ collections:
         file: content/index.md
         fields:
           - { name: content, label: Content, widget: markdown }
-      - name: about
-        label: About Us
+      - name: over
+        label: Over ons
         file: content/over-ons.md
         fields:
           - { name: content, label: Content, widget: markdown }
