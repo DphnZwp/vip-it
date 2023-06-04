@@ -8,12 +8,12 @@ collections:
     files:
       - name: home
         label: Home
-        file: content/home.md
+        file: content/index.md
         fields:
           - { name: content, label: Content, widget: markdown }
       - name: about
         label: About Us
-        file: content/about.md
+        file: content/over-ons.md
         fields:
           - { name: content, label: Content, widget: markdown }
       - name: contact
