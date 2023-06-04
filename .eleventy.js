@@ -17,7 +17,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.setLibrary("md", configureMarkdownIt());
 	eleventyConfig.addPassthroughCopy('./css/')
 	eleventyConfig.addPassthroughCopy('./content/images/')
-  eleventyConfig.addPassthroughCopy("./admin/config.yml");
+  eleventyConfig.addPassthroughCopy("./admin/");
 
 	eleventyConfig.addWatchTarget('./css/')
   eleventyConfig.addWatchTarget('./content/images/')
