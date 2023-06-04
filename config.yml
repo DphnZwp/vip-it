@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: home
+        label: Home
+        file: content/home.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: content, label: Content, widget: markdown }
+      - name: about
+        label: About Us
+        file: content/about.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: content, label: Content, widget: markdown }
+      - name: contact
+        label: Contact
+        file: content/contact.md
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: content, label: Content, widget: markdown }
