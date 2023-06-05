@@ -14,7 +14,7 @@ collections:
         file: "content/index.md"
         fields:
           - { name: title, label: Title, widget: string }
-          - { name: content, label: Content, widget: markdown }
+          - { name: content, label: Content, widget: markdown, default: "{{< include file=\"content/index.md\" >}}" }
       - name: over
         label: Over ons
         file: "content/over-ons.md"
