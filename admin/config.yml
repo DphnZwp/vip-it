@@ -16,4 +16,4 @@ collections:
           - name: content
             label: Content
             widget: markdown
-            
+            default: "content/index.md"
