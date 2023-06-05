@@ -1,47 +1,62 @@
-fetch('/content/index.md')
-  .then(response => response.text())
-  .then(content => {
-    CMS.registerEditorComponent({
-      id: 'markdown',
-      label: 'Markdown',
-      pattern: /^---\n.*?---\n(.*)/s,
-      fromBlock: match => match && match[1],
-      toBlock: content => `---\n${content}---\n`,
-      toPreview: content => `---\n${content}---\n`,
-    });
-    CMS.init();
-    const editor = window.CMS.getEditorByFieldPath('content');
-    editor.setValue(content);
-  });
+window.CMS_MANUAL_INIT = true;
 
-  fetch('/content/over-ons.md')
+fetch('/path/to/your/content/index.md')
   .then(response => response.text())
   .then(content => {
-    CMS.registerEditorComponent({
-      id: 'markdown',
-      label: 'Markdown',
-      pattern: /^---\n.*?---\n(.*)/s,
-      fromBlock: match => match && match[1],
-      toBlock: content => `---\n${content}---\n`,
-      toPreview: content => `---\n${content}---\n`,
-    });
-    CMS.init();
-    const editor = window.CMS.getEditorByFieldPath('content');
-    editor.setValue(content);
-  });
+    const config = {
+      backend: {
+        name: 'git-gateway',
+        branch: 'main',
+      },
+      media_folder: '_site/images',
+      public_folder: '/images',
+      collections: [
+        {
+          name: 'pages',
+          label: 'Pages',
+          files: [
+            {
+              name: 'home',
+              label: 'Home',
+              file: 'content/index.md',
+              fields: [
+                {
+                  name: 'content',
+                  label: 'Content',
+                  widget: 'markdown',
+                },
+              ],
+            },
+            {
+              name: 'over',
+              label: 'Over ons',
+              file: 'content/over-ons.md',
+              fields: [
+                {
+                  name: 'content',
+                  label: 'Content',
+                  widget: 'markdown',
+                },
+              ],
+            },
+            {
+              name: 'contact',
+              label: 'Contact',
+              file: 'content/contact.md',
+              fields: [
+                {
+                  name: 'content',
+                  label: 'Content',
+                  widget: 'markdown',
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    };
 
-  fetch('/content/contact.md')
-  .then(response => response.text())
-  .then(content => {
-    CMS.registerEditorComponent({
-      id: 'markdown',
-      label: 'Markdown',
-      pattern: /^---\n.*?---\n(.*)/s,
-      fromBlock: match => match && match[1],
-      toBlock: content => `---\n${content}---\n`,
-      toPreview: content => `---\n${content}---\n`,
-    });
-    CMS.init();
-    const editor = window.CMS.getEditorByFieldPath('content');
-    editor.setValue(content);
+    config.collections[0].files[0].fields[0].default = content;
+
+    CMS.init({ config });
   });
