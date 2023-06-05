@@ -15,24 +15,28 @@
     <script>
       window.CMS_MANUAL_INIT = true;
 
-      function getMarkdownContent() {
-        return fetch('/content/index.md')
-          .then(response => response.text());
+      function fetchMarkdownContent() {
+      return fetch('/path/to/your/content/index.md')
+        .then(response => response.text());
       }
-  
-      CMS.registerEventListener({
-        name: 'preSave',
-        handler: ({ entry }) => {
-          if (entry.getIn(['data', 'content']) === undefined) {
-            return getMarkdownContent().then(content => {
-              entry.setIn(['data', 'content'], content);
-              return entry;
-            });
-          }
-          return entry;
+
+      CMS.registerEditorComponent({
+        id: 'customMarkdown',
+        label: 'Custom Markdown',
+        pattern: /^<p>Custom Markdown<\/p>\n$/,
+        fromBlock: match => {
+          return match && {
+            content: fetchMarkdownContent(),
+          };
+        },
+        toBlock: data => {
+          return `<p>Custom Markdown</p>\n`;
+        },
+        toPreview: data => {
+          return `<p>Custom Markdown</p>`;
         },
       });
-  
+
       // Initialize Netlify CMS
       CMS.init();
     </script>
