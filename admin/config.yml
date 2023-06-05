@@ -14,19 +14,3 @@ collections:
         name: index
         fields:
           - { name: content, label: Content, widget: markdown }
-  - name: over
-    label: Over ons
-    files:
-      - file: content/over-ons.md
-        label: Content
-        name: about
-        fields:
-          - { name: content, label: Content, widget: markdown }
-  - name: contact
-    label: Contact
-    files:
-      - file: content/contact.md
-        label: Content
-        name: contact
-        fields:
-          - { name: content, label: Content, widget: markdown }
