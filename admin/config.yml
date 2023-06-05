@@ -14,13 +14,13 @@ collections:
         file: "content/index.md"
         fields:
           - { name: content, label: Content, widget: markdown, default: "{{< include file=\"content/index.md\" >}}" }
-      - name: over
-        label: Over ons
-        file: "content/over-ons.md"
-        fields:
-          - { name: content, label: Content, widget: markdown, default: "{{< include file=\"content/over-ons.md\" >}}" }
-      - name: contact
-        label: Contact
-        file: "content/contact.md"
-        fields:
-          - { name: content, label: Content, widget: markdown, default: "{{< include file=\"content/contact.md\" >}}" }
+      # - name: over
+      #   label: Over ons
+      #   file: "content/over-ons.md"
+      #   fields:
+      #     - { name: content, label: Content, widget: markdown, default: "{{< include file=\"content/over-ons.md\" >}}" }
+      # - name: contact
+      #   label: Contact
+      #   file: "content/contact.md"
+      #   fields:
+      #     - { name: content, label: Content, widget: markdown, default: "{{< include file=\"content/contact.md\" >}}" }
