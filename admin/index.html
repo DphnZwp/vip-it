@@ -12,5 +12,29 @@
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+
+      function getMarkdownContent() {
+        return fetch('/content/index.md')
+          .then(response => response.text());
+      }
+  
+      CMS.registerEventListener({
+        name: 'preSave',
+        handler: ({ entry }) => {
+          if (entry.getIn(['data', 'content']) === undefined) {
+            return getMarkdownContent().then(content => {
+              entry.setIn(['data', 'content'], content);
+              return entry;
+            });
+          }
+          return entry;
+        },
+      });
+  
+      // Initialize Netlify CMS
+      CMS.init();
+    </script>
   </body>
 </html>
