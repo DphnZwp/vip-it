@@ -16,6 +16,4 @@ collections:
           - name: content
             label: Content
             widget: markdown
-            editor:
-              preview: false
-            default: "{{ .fields.content.default }}"
+            
