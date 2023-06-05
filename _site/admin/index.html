@@ -11,44 +11,5 @@
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script>
-      window.CMS_MANUAL_INIT = true;
-
-fetch('/content/index.md')
-  .then(response => response.text())
-  .then(content => {
-    const config = {
-      backend: {
-        name: 'git-gateway',
-        branch: 'main',
-      },
-      media_folder: '_site/images',
-      public_folder: '/images',
-      collections: [
-        {
-          name: 'pages',
-          label: 'Pages',
-          files: [
-            {
-              name: 'home',
-              label: 'Home',
-              file: 'content/index.md',
-              fields: [
-                {
-                  name: 'content',
-                  label: 'Content',
-                  widget: 'markdown',
-                  default: content,
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    };
-
-    CMS.init({ config });
-  });
-    </script>
   </body>
 </html>
