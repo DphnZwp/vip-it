@@ -6,7 +6,7 @@ fetch('/path/to/your/content/index.md')
     fetch('/path/to/your/content/over-ons.md')
       .then(response => response.text())
       .then(overContent => {
-        fetch('/path/to/your/content/contact.md')
+        fetch('/content/contact.md')
           .then(response => response.text())
           .then(contactContent => {
             const config = {
@@ -27,6 +27,11 @@ fetch('/path/to/your/content/index.md')
                       file: 'content/index.md',
                       fields: [
                         {
+                          name: 'title',
+                          label: 'Title',
+                          widget: 'string',
+                        },
+                        {
                           name: 'content',
                           label: 'Content',
                           widget: 'markdown',
@@ -40,6 +45,11 @@ fetch('/path/to/your/content/index.md')
                       file: 'content/over-ons.md',
                       fields: [
                         {
+                          name: 'title',
+                          label: 'Title',
+                          widget: 'string',
+                        },
+                        {
                           name: 'content',
                           label: 'Content',
                           widget: 'markdown',
@@ -52,6 +62,11 @@ fetch('/path/to/your/content/index.md')
                       label: 'Contact',
                       file: 'content/contact.md',
                       fields: [
+                        {
+                          name: 'title',
+                          label: 'Title',
+                          widget: 'string',
+                        },
                         {
                           name: 'content',
                           label: 'Content',
