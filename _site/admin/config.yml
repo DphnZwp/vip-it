@@ -13,7 +13,7 @@ collections:
         label: Home
         file: "content/index.md"
         fields:
-          - { name: content, label: Content, widget: markdown, editor_components: [] }
+          - { name: content, label: Content, widget: markdown, default: '{{file.content | markdownify}}' }
       # - name: over
       #   label: Over ons
       #   file: "content/over-ons.md"
