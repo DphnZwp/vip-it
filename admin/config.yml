@@ -18,4 +18,4 @@ collections:
             widget: markdown
             editor:
               preview: false
-            default: "{{ readFileAsString 'content/index.md' }}"
+            default: "{{ .fields.content.default }}"
