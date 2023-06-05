@@ -16,6 +16,7 @@ collections:
           - name: content
             label: Content
             widget: markdown
+            default: ""
       - name: over
         label: Over ons
         file: content/over-ons.md
@@ -23,6 +24,7 @@ collections:
           - name: content
             label: Content
             widget: markdown
+            default: ""
       - name: contact
         label: Contact
         file: content/contact.md
@@ -30,3 +32,4 @@ collections:
           - name: content
             label: Content
             widget: markdown
+            default: ""
