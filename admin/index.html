@@ -5,40 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script src="admin-script.js"></script>
 
     <title>Content Manager</title>
   </head>
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script>
-      window.CMS_MANUAL_INIT = true;
-
-      function fetchMarkdownContent() {
-      return fetch('/path/to/your/content/index.md')
-        .then(response => response.text());
-      }
-
-      CMS.registerEditorComponent({
-        id: 'customMarkdown',
-        label: 'Custom Markdown',
-        pattern: /^<p>Custom Markdown<\/p>\n$/,
-        fromBlock: match => {
-          return match && {
-            content: fetchMarkdownContent(),
-          };
-        },
-        toBlock: data => {
-          return `<p>Custom Markdown</p>\n`;
-        },
-        toPreview: data => {
-          return `<p>Custom Markdown</p>`;
-        },
-      });
-
-      // Initialize Netlify CMS
-      CMS.init();
-    </script>
   </body>
 </html>

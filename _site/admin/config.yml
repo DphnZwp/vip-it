@@ -13,4 +13,9 @@ collections:
         label: Content
         name: index
         fields:
-          - { name: content, label: Content, widget: markdown }
+          - name: content
+            label: Content
+            widget: markdown
+            editor:
+              preview: false
+            default: "{{ .content | safe }}"
