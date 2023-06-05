@@ -14,7 +14,7 @@ fetch('/content/index.md')
     editor.setValue(content);
   });
 
-	fetch('/content/over-ons.md')
+  fetch('/content/over-ons.md')
   .then(response => response.text())
   .then(content => {
     CMS.registerEditorComponent({
@@ -30,7 +30,7 @@ fetch('/content/index.md')
     editor.setValue(content);
   });
 
-	fetch('/content/contact.md')
+  fetch('/content/contact.md')
   .then(response => response.text())
   .then(content => {
     CMS.registerEditorComponent({
