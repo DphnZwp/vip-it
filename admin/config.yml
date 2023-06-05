@@ -26,3 +26,13 @@ collections:
           - name: body
             label: Content
             widget: markdown
+  - name: contact
+    label: Contact
+    files:
+      - file: content/contact.md
+        label: Content
+        name: index
+        fields:
+          - name: body
+            label: Content
+            widget: markdown
