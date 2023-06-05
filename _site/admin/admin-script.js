@@ -29,11 +29,6 @@ fetch('/content/index.md')
               file: 'content/index.md',
               fields: [
                 {
-                  name: 'title',
-                  label: 'Title',
-                  widget: 'string',
-                },
-                {
                   name: 'content',
                   label: 'Content',
                   widget: 'markdown',

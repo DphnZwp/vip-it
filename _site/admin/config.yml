@@ -6,21 +6,27 @@ media_folder: "_site/images"
 public_folder: "/images"
 
 collections:
-  - name: pages
-    label: Pages
+  - name: home
+    label: Home
     files:
-      - name: home
-        label: Home
-        file: "content/index.md"
+      - file: content/index.md
+        label: Content
+        name: index
         fields:
-          - { name: content, label: Content, widget: markdown, default: '{{file.content | markdownify}}' }
-      # - name: over
-      #   label: Over ons
-      #   file: "content/over-ons.md"
-      #   fields:
-      #     - { name: content, label: Content, widget: markdown, default: "{{< include file=\"content/over-ons.md\" >}}" }
-      # - name: contact
-      #   label: Contact
-      #   file: "content/contact.md"
-      #   fields:
-      #     - { name: content, label: Content, widget: markdown, default: "{{< include file=\"content/contact.md\" >}}" }
+          - { name: content, label: Content, widget: markdown }
+  - name: over
+    label: Over ons
+    files:
+      - file: content/over-ons.md
+        label: Content
+        name: about
+        fields:
+          - { name: content, label: Content, widget: markdown }
+  - name: contact
+    label: Contact
+    files:
+      - file: content/contact.md
+        label: Content
+        name: contact
+        fields:
+          - { name: content, label: Content, widget: markdown }
