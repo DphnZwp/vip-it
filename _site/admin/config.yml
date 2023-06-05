@@ -2,22 +2,28 @@ backend:
   name: git-gateway
   branch: main
 
+media_folder: "_site/images"
+public_folder: "/images"
+
 collections:
   - name: pages
     label: Pages
     files:
       - name: home
         label: Home
-        file: content/index.md
+        file: "content/index.md"
         fields:
+          - { name: title, label: Title, widget: string }
           - { name: content, label: Content, widget: markdown }
-      - name: about
-        label: About Us
-        file: content/over-ons.md
+      - name: over
+        label: Over ons
+        file: "content/over-ons.md"
         fields:
+          - { name: title, label: Title, widget: string }
           - { name: content, label: Content, widget: markdown }
       - name: contact
         label: Contact
-        file: content/contact.md
+        file: "content/contact.md"
         fields:
+          - { name: title, label: Title, widget: string }
           - { name: content, label: Content, widget: markdown }

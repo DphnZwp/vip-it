@@ -13,14 +13,17 @@ collections:
         label: Home
         file: "content/index.md"
         fields:
+          - { name: title, label: Title, widget: string }
           - { name: content, label: Content, widget: markdown }
       - name: over
         label: Over ons
         file: "content/over-ons.md"
         fields:
+          - { name: title, label: Title, widget: string }
           - { name: content, label: Content, widget: markdown }
       - name: contact
         label: Contact
         file: "content/contact.md"
         fields:
+          - { name: title, label: Title, widget: string }
           - { name: content, label: Content, widget: markdown }
