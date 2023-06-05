@@ -1,7 +1,6 @@
 ---
-layout: "over-ons.njk"
+layout: over-ons.njk
 ---
-
 :::
 # Waarom VIP-IT?
 **Slechts 29% van de mensen met een visuele beperking heeft een baan. De
