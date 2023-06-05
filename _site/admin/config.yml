@@ -13,7 +13,6 @@ collections:
         label: Content
         name: index
         fields:
-          - name: content
+          - name: body
             label: Content
             widget: markdown
-            default: "content-page"
