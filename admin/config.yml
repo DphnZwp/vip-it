@@ -11,8 +11,28 @@ collections:
     files:
       - file: content/index.md
         label: Content
-        name: index
+        name: content
         fields:
           - name: body
             label: Content
             widget: markdown
+  - name: over
+  label: Over ons
+  files:
+    - file: content/contact.md
+      label: Content
+      name: content
+      fields:
+        - name: body
+          label: Content
+          widget: markdown
+  - name: contact
+  label: Contact
+  files:
+    - file: content/contact.md
+      label: Content
+      name: content
+      fields:
+        - name: body
+          label: Content
+          widget: markdown
