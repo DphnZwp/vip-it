@@ -1,7 +1,6 @@
 ---
-layout: "contact.njk"
+layout: contact.njk
 ---
-
 :::
 # Doe met ons mee?
 Als deelnemer aan het pact vragen wij u om met ons mee te denken over en 
