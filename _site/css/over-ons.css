@@ -69,7 +69,7 @@ section:last-child a:hover {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 875px) {
 	section:first-child {
 		padding: 0;
 	}
@@ -81,4 +81,6 @@ section:last-child a:hover {
 	main {
 		margin: 1em;
 	}
+
+	
 }
