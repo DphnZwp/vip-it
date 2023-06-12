@@ -13,4 +13,4 @@ nemen.
 Stuur ons een email.
 :::
 
-![Working students on laptop](https://vip-it-sveltekit.vercel.app/images/working-on-different-screens.webp)
+![studenten in een programeer ruimte](https://vip-it-sveltekit.vercel.app/images/working-on-different-screens.webp)
