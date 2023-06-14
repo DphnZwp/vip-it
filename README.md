@@ -31,6 +31,9 @@ We gebruiken Netlify CMS om de content van de pagina's te bewerken.
 - Wacht een paar minuten.
 - Je kan nu naar [https://vip-it.netlify.app](https://vip-it.netlify.app) gaan om te bekijken als de content is veranderd die je bewerkt hebt.
 
+### Afbeeldingen toevoegen
+Afbeeldingen kunnen toegevoegd worden in de Media pagina met de upload knop. De afbeldingen worden geupload in de afbeeldingen map.
+
 ### Niet gelukt om de content te veranderen?
 Vraag Daphne of Emona om hulp :wink:.
 
