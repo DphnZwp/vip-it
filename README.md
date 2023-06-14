@@ -24,10 +24,11 @@ We gebruiken Netlify CMS om de content van de pagina's te bewerken.
 - Nadat je de pagina link lijst hebt overgeslagen moet je de sorteer knoppen ook overslaan. Daarna klik je op de link Content bewerken van "gekozen pagina". Nu kom je op een nieuwe pagina terecht waarin je de content kan bewerken
 
 ### Content bewerken van gekozen pagina
-- Met de eerste link van het bovenste menu genaamd "Writing in Home collection CHANGES SAVED" kan je terug gaan naar de vorige pagina en weten als je veranderingen zijn opgeslagen. Sla deze link over.
+- Sla de link "Writing in Home collection CHANGES SAVED" over. Met de eerste link van het bovenste menu genaamd "Writing in Home collection CHANGES SAVED" kan je terug gaan naar de vorige pagina en weten als je veranderingen zijn opgeslagen.
 - De publish knop kan je overslaan.
 - De submenu kan je overslaan.
 - Toggle preview knop kan je overslaan.
 - Sync scrolling knop kan je overslaan.
 - De stijlknoppen zijn niet beschikbaar omdat het een markdown veld is. Je kan de switch uitzetten als je liever de content wilt bewerken met rich text. Nu kan je de content bewerken met markdown in een tekst veld.
+- Met ::: (drie dubbele punten achter elkaar) kunnen we secties maken in pagina's dus verander deze niet.
 
