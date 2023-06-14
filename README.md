@@ -1,9 +1,13 @@
 # Inhoudsopgave
   * [Introductie](#introductie)
+  * [Website link](#website-link)
   * [Handleiding](#kenmerken)
 
 ## Introductie
 Een toegankelijke website voor VIP-IT gemaakt met eleventy. We hebben de website gekoppeld aan Netlify CMS, zodat de website makkelijker te bewererken is.
+
+## Website link
+[🌐 https://vip-it.netlify.app/](https://vip-it.netlify.app/)
 
 ## Handleiding
 We gebruiken Netlify CMS om de content van de pagina's te bewerken.
@@ -26,7 +30,7 @@ We gebruiken Netlify CMS om de content van de pagina's te bewerken.
 - Toggle preview knop kan je overslaan.
 - Sync scrolling knop kan je overslaan.
 - De stijlknoppen zijn niet beschikbaar omdat het een markdown veld is. Je kan de switch uitzetten als je liever de content wilt bewerken met rich text. Nu kan je de content bewerken met markdown in een tekst veld.
-- Met ::: (drie dubbele punten achter elkaar) kunnen we secties maken in pagina's, dus verander deze niet.
+- Met ::: (drie dubbele punten achter elkaar) kunnen we secties maken in pagina's, dus verander deze niet. Je kan dus wel de content tussen de drie dubbele punten veranderen.
 - Druk op de publish knop wanneer je klaar bent met het bewerken van de content. De publish knop is nu uitgevouwen. Druk nog een keer op de publish knop om de content te publiceren.
 - Wacht een paar minuten.
 - Je kan nu naar [https://vip-it.netlify.app](https://vip-it.netlify.app) gaan om te bekijken als de content is veranderd die je bewerkt hebt.
@@ -36,4 +40,3 @@ Afbeeldingen kunnen toegevoegd worden in de Media pagina met de upload knop. De 
 
 ### Niet gelukt om de content te veranderen?
 Vraag Daphne of Emona om hulp :wink:.
-
