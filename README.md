@@ -1,6 +1,6 @@
 # Inhoudsopgave
   * [Introductie](#introductie)
-  * [Website link]
+  * [Website link](#website-link)
   * [Handleiding](#kenmerken)
 
 ## Introductie
