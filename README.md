@@ -29,4 +29,5 @@ We gebruiken Netlify CMS om de content van de pagina's te bewerken.
 - De submenu kan je overslaan.
 - Toggle preview knop kan je overslaan.
 - Sync scrolling knop kan je overslaan.
-- Je kan de switch uitzetten als je liever de content wilt bewerken met rich text. Nu kan je de content bewerken met markdown in een tekst veld. 
+- De stijlknoppen zijn niet beschikbaar omdat het een markdown veld is. Je kan de switch uitzetten als je liever de content wilt bewerken met rich text. Nu kan je de content bewerken met markdown in een tekst veld.
+
