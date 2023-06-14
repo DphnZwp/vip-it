@@ -3,7 +3,8 @@ main {
   grid-template-columns: 1fr;
   align-items: center;
   column-gap: 5em;
-  padding: 1em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 section a {
