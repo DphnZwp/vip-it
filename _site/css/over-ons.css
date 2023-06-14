@@ -35,7 +35,7 @@ section:first-child p:nth-of-type(2) {
 
 section:last-child {
 	padding: 2rem 2rem;
-	text-align: center;
+	text-align: left;
 	background-color: var(--clr-blue);
 }
 
