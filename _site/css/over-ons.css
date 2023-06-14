@@ -67,7 +67,6 @@ section:last-child a:hover {
 		background-color: var(--clr-blue);
 	}	
 }
-
 @media only screen and (max-width: 875px) {
 	section:first-child {
 		padding: 1em;

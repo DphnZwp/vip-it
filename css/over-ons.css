@@ -35,7 +35,7 @@ section:first-child p:nth-of-type(2) {
 
 section:last-child {
 	padding: 2rem 2rem;
-	text-align: center;
+	text-align: left;
 	background-color: var(--clr-blue);
 }
 
@@ -67,7 +67,6 @@ section:last-child a:hover {
 		background-color: var(--clr-blue);
 	}	
 }
-
 @media only screen and (max-width: 875px) {
 	section:first-child {
 		padding: 1em;

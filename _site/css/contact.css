@@ -3,9 +3,9 @@ main {
   grid-template-columns: 1fr;
   align-items: center;
   column-gap: 5em;
-
+  padding: 1em;
 }
-  
+
 section a {
 	padding: .75em 1.75em;
 	color: white;
@@ -15,6 +15,7 @@ section a {
 	border-radius: .5rem;
 	display: block;
 }
+
 section p {
   margin-bottom: 2rem;
 }
@@ -29,15 +30,18 @@ p img {
   height: 100%;
   object-fit: cover;
 }
+
 form {
   display: flex;
   flex-direction: column;
-  width: 32rem;
+  width: auto;
 }
+
 form label {
   margin-bottom: .5rem;
   font-size: 1.1875rem;
 }
+
 form input {
   margin-bottom: 1rem;
   padding: 1rem;
@@ -45,13 +49,16 @@ form input {
   border: 2px solid var(--clr-black);
   border-radius: 5px;
 }
+
 form textarea {
   padding: 1rem;
   border: 2px solid var(--clr-black);
   border-radius: 5px;
 }
+
 form button {
   margin-top: 1rem;
+  margin-bottom: 2rem;
   font-size: 1.1875rem;
   border: none;
 }
