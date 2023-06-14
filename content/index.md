@@ -2,6 +2,7 @@
 layout: home.njk
 ---
 :::
+
 # VIP-IT
 
 Een toegankelijk IT-omscholingsprogramma met baangarantie voor mensen met een visuele beperking.
