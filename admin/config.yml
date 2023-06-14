@@ -10,8 +10,8 @@ collections:
     label: Home
     files:
       - file: content/index.md
-        label: Content
-        name: index
+        label: Content bewerken van Home
+        name: home
         fields:
           - name: body
             label: Content
@@ -20,8 +20,8 @@ collections:
     label: Over ons
     files:
       - file: content/over-ons.md
-        label: Content
-        name: index
+        label: Content bewerken van Over ons
+        name: over ons
         fields:
           - name: body
             label: Content
@@ -30,8 +30,8 @@ collections:
     label: Contact
     files:
       - file: content/contact.md
-        label: Content
-        name: index
+        label: Content bewerken van Contact
+        name: contact
         fields:
           - name: body
             label: Content
