@@ -31,4 +31,10 @@ We gebruiken Netlify CMS om de content van de pagina's te bewerken.
 - Sync scrolling knop kan je overslaan.
 - De stijlknoppen zijn niet beschikbaar omdat het een markdown veld is. Je kan de switch uitzetten als je liever de content wilt bewerken met rich text. Nu kan je de content bewerken met markdown in een tekst veld.
 - Met ::: (drie dubbele punten achter elkaar) kunnen we secties maken in pagina's, dus verander deze niet.
+- Druk op de publish knop wanneer je klaar bent met het bewerken van de content. De publish knop is nu uitgevouwen. Druk nog een keer op de publish knop om de content te publiceren.
+- Wacht een paar minuten.
+- Je kan nu naar [https://vip-it.netlify.app](https://vip-it.netlify.app) gaan om te bekijken als de content is veranderd die je bewerkt hebt.
+
+### Niet gelukt om de content te veranderen?
+Vraag Daphne of Emona om hulp :wink:.
 
