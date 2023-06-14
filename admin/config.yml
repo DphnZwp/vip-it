@@ -15,7 +15,7 @@ collections:
         fields:
           - name: body
             label: Content
-            widget: wysiwyg
+            widget: markdown
   - name: over
     label: Over ons
     files:
@@ -25,7 +25,7 @@ collections:
         fields:
           - name: body
             label: Content
-            widget: wysiwyg
+            widget: markdown
   - name: contact
     label: Contact
     files:
@@ -35,4 +35,4 @@ collections:
         fields:
           - name: body
             label: Content
-            widget: wysiwyg
+            widget: markdown
