@@ -30,5 +30,5 @@ We gebruiken Netlify CMS om de content van de pagina's te bewerken.
 - Toggle preview knop kan je overslaan.
 - Sync scrolling knop kan je overslaan.
 - De stijlknoppen zijn niet beschikbaar omdat het een markdown veld is. Je kan de switch uitzetten als je liever de content wilt bewerken met rich text. Nu kan je de content bewerken met markdown in een tekst veld.
-- Met ::: (drie dubbele punten achter elkaar) kunnen we secties maken in pagina's dus verander deze niet.
+- Met ::: (drie dubbele punten achter elkaar) kunnen we secties maken in pagina's, dus verander deze niet.
 
