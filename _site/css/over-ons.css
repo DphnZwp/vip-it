@@ -10,7 +10,7 @@ section:first-child {
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 }
 
 .intro {
@@ -21,7 +21,7 @@ h1 {
 
 section:first-child p:first-of-type {
 	margin-bottom: 1rem;
-	text-align: center;
+	text-align: left;
 	font-size: 2rem;
 }
 
@@ -61,12 +61,23 @@ section:last-child a:hover {
 }
 
 @media (min-width: 70em) {
+	h1 {
+		text-align: center;
+	}
+
 	section:last-child {
 		text-align: center;
 		grid-column: 1/4;
 		background-color: var(--clr-blue);
 	}	
+
+	section:first-child p:first-of-type {
+		margin-bottom: 1rem;
+		text-align: center;
+		font-size: 2rem;
+	}
 }
+
 @media only screen and (max-width: 875px) {
 	section:first-child {
 		padding: 1em;
@@ -76,7 +87,11 @@ section:last-child a:hover {
 @media only screen and (max-width: 450px) {
 	section:first-child p:first-of-type {
 		margin-bottom: 1rem;
-		text-align: center;
-		font-size: 16px;
+		text-align: left;
+		font-size: 1.1875rem;
+	}
+
+	strong {
+		font-weight: 500;
 	}
 }
