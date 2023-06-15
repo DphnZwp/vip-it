@@ -25,7 +25,7 @@ We gebruiken Netlify CMS om de content van de pagina's te bewerken.
 
 ### Content bewerken van gekozen pagina
 - Sla de link "Writing in Home collection CHANGES SAVED" over. Met de eerste link van het bovenste menu genaamd "Writing in Home collection CHANGES SAVED" kan je terug gaan naar de vorige pagina en weten als je veranderingen zijn opgeslagen.
-- De publish knop kan je overslaan.
+- De publish knop kan je overslaan. De publish knop gebruik je pas nadat je klaar bent met het bewerken van de pagina.
 - De submenu kan je overslaan.
 - Toggle preview knop kan je overslaan.
 - Sync scrolling knop kan je overslaan.
