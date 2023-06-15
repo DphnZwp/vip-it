@@ -16,10 +16,12 @@ module.exports = eleventyConfig => {
 
   eleventyConfig.setLibrary("md", configureMarkdownIt());
 	eleventyConfig.addPassthroughCopy('./css/')
+	eleventyConfig.addPassthroughCopy('./js/')
 	eleventyConfig.addPassthroughCopy('./content/images/')
   eleventyConfig.addPassthroughCopy("./admin/");
 
 	eleventyConfig.addWatchTarget('./css/')
+	eleventyConfig.addWatchTarget('./js/')
   eleventyConfig.addWatchTarget('./content/images/')
 
   return {
