@@ -13,16 +13,9 @@ h1 {
 	text-align: left;
 }
 
-.intro {
-	margin-bottom: 2rem;
-	font-size: 2rem;
-	text-align: center;
-}
-
 section:first-child p:first-of-type {
 	margin-bottom: 1rem;
 	text-align: left;
-	font-size: 2rem;
 }
 
 strong {
