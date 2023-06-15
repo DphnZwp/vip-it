@@ -1,6 +1,6 @@
 section {
-	padding-right: 2rem;
-	padding-left: 2rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
 }
 
 section:first-child p {
@@ -18,12 +18,12 @@ p:nth-child(2) img:first-child {
 }
 
 main>p:nth-child(3) {
-	padding-left: 2rem;
+	padding-left: 1rem;
 }
 
 section:last-child {
-	margin-top: 2rem;
-	padding: 2rem 2rem;
+	margin-top: 1rem;
+	padding: 2rem 1rem;
 	text-align: left;
 	background-color: var(--clr-blue);
 }
