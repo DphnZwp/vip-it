@@ -92,7 +92,8 @@ header img {
 	margin-bottom: 0;
 }
 
-ul {
+header ul {
+	margin-top: 1rem;
 	display: flex;
 	align-items: center;
 	list-style-type: none;

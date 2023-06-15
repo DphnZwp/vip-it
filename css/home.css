@@ -17,6 +17,10 @@ p:nth-child(2) img:first-child {
 	width: 100%;
 }
 
+main>p:nth-child(3) {
+	padding-left: 2rem;
+}
+
 section:last-child {
 	margin-top: 2rem;
 	padding: 2rem 2rem;
