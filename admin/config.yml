@@ -22,4 +22,4 @@ collections:
         widget: number
       - name: body
         label: Content
-        widget: rich_text
+        widget: rich-text
