@@ -6,36 +6,6 @@ media_folder: "_site/images"
 public_folder: "/images"
 
 collections:
-  - name: home
-    label: Home
-    files:
-      - file: content/index.md
-        label: Content bewerken van Home
-        name: home
-        fields:
-          - name: body
-            label: Content
-            widget: markdown
-  - name: over
-    label: Over ons
-    files:
-      - file: content/over-ons.md
-        label: Content bewerken van Over ons
-        name: over ons
-        fields:
-          - name: body
-            label: Content
-            widget: markdown
-  - name: contact
-    label: Contact
-    files:
-      - file: content/contact.md
-        label: Content bewerken van Contact
-        name: contact
-        fields:
-          - name: body
-            label: Content
-            widget: markdown
   - label: "Pages"
     name: "pages"
     folder: "content"
