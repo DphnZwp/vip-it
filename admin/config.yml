@@ -19,4 +19,4 @@ collections:
         widget: string
       - name: body
         label: Content
-        widget: markdown
+        widget: rich_text
