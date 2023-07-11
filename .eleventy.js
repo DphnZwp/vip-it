@@ -28,6 +28,9 @@ module.exports = eleventyConfig => {
 		dir: {
 			input: "content",
 		},
-    templateFormats: [ "md", "njk", "html", ]
+    templateFormats: [ "md", "njk", "html", ],
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+    dataTemplateEngine: "njk",
   };
 };
