@@ -1,6 +1,6 @@
 ---
 layout: contact.njk
-title: Contac
+title: Contact
 ---
 :::
 # Doe met ons mee?
