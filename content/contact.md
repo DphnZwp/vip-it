@@ -1,6 +1,7 @@
 ---
 layout: contact.njk
 title: Contact
+nav_order: 3
 ---
 :::
 # Doe met ons mee?

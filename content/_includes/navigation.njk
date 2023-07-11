@@ -1,20 +1,20 @@
 <header>
-		<div>
-			<a class="skip-nav-link" href="#main-content">Navigatie overslaan</a>
-			<a aria-label="Logo vip-it" href="/">
-				<img aria-hidden="true" src="/images/vip-it-logo.png" alt="Logo vip-it">
-			</a>
-		</div>
-		<nav>
-			<nav>
-				<ul>
-						<li><a href="/">Home</a></li>
-						{% for page in collections.all %}
-								{% if page.data.title != 'Home' and page.data.title != 'Contact' %}
-										<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
-								{% endif %}
-						{% endfor %}
-						<li><a class="btn-primary" href="/">Contact</a></li>
-				</ul>
-		</nav>
-	</header>
+	<div>
+		<a class="skip-nav-link" href="#main-content">Navigatie overslaan</a>
+		<a aria-label="Logo vip-it" href="/">
+			<img aria-hidden="true" src="/images/vip-it-logo.png" alt="Logo vip-it">
+		</a>
+	</div>
+	<nav>
+		<ul>
+			{% set sorted_pages = collections.all | sort(attribute='data.nav_order') %}
+			{% for page in sorted_pages %}
+				{% if page.data.title == "Contact" %}
+					<li><a class="btn-primary" href="{{ page.url }}">{{ page.data.title }}</a></li>
+				{% else %}
+					<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</nav>
+</header>

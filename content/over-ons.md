@@ -1,6 +1,7 @@
 ---
 layout: over-ons.njk
 title: Over ons
+nav_order: 2
 ---
 :::
 # Waarom VIP-IT?

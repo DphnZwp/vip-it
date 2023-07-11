@@ -17,6 +17,9 @@ collections:
       - name: title
         label: Title
         widget: string
+      - name: nav_order
+        label: Navigatie volgorde
+        widget: number
       - name: body
         label: Content
         widget: rich_text

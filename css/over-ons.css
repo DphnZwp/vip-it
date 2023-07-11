@@ -3,10 +3,10 @@ h2 {
 }
 
 section:first-child {
-	padding-top: 3em;
-	padding-right: 15em;
-	padding-bottom: 6em;
-	padding-left: 15em;
+	padding-top: 3rem;
+	padding-right: 2rem;
+	padding-bottom: 6rem;
+	padding-left: 2rem;
 }
 
 h1 {
@@ -62,29 +62,18 @@ section:last-child a:hover {
 		text-align: center;
 		grid-column: 1/4;
 		background-color: var(--clr-blue);
-	}	
+	}
+
+	section:first-child {
+		padding-top: 3em;
+		padding-right: 15em;
+		padding-bottom: 6em;
+		padding-left: 15em;
+	}
 
 	section:first-child p:first-of-type {
 		margin-bottom: 1rem;
 		text-align: center;
 		font-size: 2rem;
-	}
-}
-
-@media only screen and (max-width: 875px) {
-	section:first-child {
-		padding: 1em;
-	}
-}
-
-@media only screen and (max-width: 450px) {
-	section:first-child p:first-of-type {
-		margin-bottom: 1rem;
-		text-align: left;
-		font-size: 1.1875rem;
-	}
-
-	strong {
-		font-weight: 500;
 	}
 }
