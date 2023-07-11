@@ -1,5 +1,6 @@
 ---
 layout: over-ons.njk
+title: Over ons
 ---
 :::
 # Waarom VIP-IT?

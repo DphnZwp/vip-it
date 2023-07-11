@@ -36,3 +36,10 @@ collections:
           - name: body
             label: Content
             widget: markdown
+  - label: "Pages"
+    name: "pages"
+    folder: "content/pages" # specify the folder where the new pages should be saved
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

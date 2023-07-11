@@ -1,0 +1,52 @@
+h1 {
+	text-align: left;
+}
+
+h2 {
+	margin-top: 1rem;
+}
+
+strong {
+	font-weight: 500;
+}
+
+section:first-child {
+	padding-top: 3rem;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 1rem;
+}
+
+section:first-child p:first-of-type {
+	text-align: left;
+}
+
+section {
+	margin-bottom: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	text-align: left;
+}
+
+@media (min-width: 70em) {
+	h1 {
+		text-align: center;
+	}
+
+	section:first-child p:first-of-type {
+		margin-bottom: 1rem;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	section:first-child {
+		padding-top: 3rem;
+	}
+
+	section {
+		margin-bottom: 1rem;
+		padding-right: 15rem;
+		padding-left: 15rem;
+		text-align: center;
+	}
+}

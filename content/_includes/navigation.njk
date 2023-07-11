@@ -6,10 +6,11 @@
 			</a>
 		</div>
 		<nav>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/over-ons">Over ons</a></li>
-				<li><a class="btn-primary" href="/contact">Contact</a></li>
-			</ul>
-		</nav>
+			<nav>
+				<ul>
+					{% for page in collections.all %}
+						<li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+					{% endfor %}
+				</ul>
+			</nav>
 	</header>
