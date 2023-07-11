@@ -13,7 +13,10 @@ collections:
     fields:
       - name: layout
         label: Layout
-        widget: string
+        widget: select
+        options:
+          - { label: "Een Kolom", value: "een-kolom.njk" }
+          - { label: "Twee Kolommen", value: "twee-kolommen.njk" }
       - name: title
         label: Title
         widget: string
