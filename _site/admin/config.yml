@@ -41,5 +41,6 @@ collections:
     folder: "content/pages" # specify the folder where the new pages should be saved
     create: true
     fields:
+      - { label: "Layout", name: "layout", widget: "string" }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
