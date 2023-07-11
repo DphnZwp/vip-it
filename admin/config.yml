@@ -38,7 +38,7 @@ collections:
             widget: markdown
   - label: "Pages"
     name: "pages"
-    folder: "content/pages" # specify the folder where the new pages should be saved
+    folder: "content"
     create: true
     fields:
       - { label: "Layout", name: "layout", widget: "string" }
