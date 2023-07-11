@@ -14,13 +14,7 @@ module.exports = eleventyConfig => {
       });
   }
 
-  let options = {
-    html: true,
-    breaks: true,
-    linkify: true
-  };
-
-  eleventyConfig.setLibrary("md", configureMarkdownIt(options));
+  eleventyConfig.setLibrary("md", configureMarkdownIt());
 	eleventyConfig.addPassthroughCopy('./css/')
 	eleventyConfig.addPassthroughCopy('./js/')
 	eleventyConfig.addPassthroughCopy('./content/images/')
@@ -34,9 +28,6 @@ module.exports = eleventyConfig => {
 		dir: {
 			input: "content",
 		},
-    templateFormats: [ "md", "njk", "html", ],
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk",
+    templateFormats: [ "md", "njk", "html", ]
   };
 };
