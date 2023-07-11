@@ -14,7 +14,13 @@ module.exports = eleventyConfig => {
       });
   }
 
-  eleventyConfig.setLibrary("md", configureMarkdownIt());
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+
+  eleventyConfig.setLibrary("md", configureMarkdownIt(options));
 	eleventyConfig.addPassthroughCopy('./css/')
 	eleventyConfig.addPassthroughCopy('./js/')
 	eleventyConfig.addPassthroughCopy('./content/images/')
