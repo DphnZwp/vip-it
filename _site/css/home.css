@@ -34,7 +34,7 @@ section:last-child p {
 }
 
 section a {
-	margin: 1.5rem auto auto auto;
+	margin-top: 1.5rem;
 	padding: .75em 1.75em;
 	color: var(--clr-white);
 	background-color: var(--clr-purple);
@@ -49,6 +49,10 @@ section a:hover {
 	background-color: var(--clr-white);
 	box-shadow: 0 0 0 2px var(--clr-purple);
 	cursor: pointer;
+}
+
+section:last-child a {
+	margin: 1.5rem auto auto auto;
 }
 
 @media (min-width: 70em) {

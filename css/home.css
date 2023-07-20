@@ -51,7 +51,7 @@ section a:hover {
 	cursor: pointer;
 }
 
-section a {
+section:last-child a {
 	margin: 1.5rem auto auto auto;
 }
 
