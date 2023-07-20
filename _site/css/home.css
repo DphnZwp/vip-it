@@ -33,7 +33,7 @@ section:last-child p {
 	max-width: 45em;
 }
 
-section:last-child a {
+section a {
 	margin: 1.5rem auto auto auto;
 	padding: .75em 1.75em;
 	color: var(--clr-white);
@@ -44,7 +44,7 @@ section:last-child a {
 	display: block;
 }
 
-section:last-child a:hover {
+section a:hover {
 	color: var(--clr-purple);
 	background-color: var(--clr-white);
 	box-shadow: 0 0 0 2px var(--clr-purple);

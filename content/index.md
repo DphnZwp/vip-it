@@ -24,7 +24,6 @@ Tijdens het omscholingsprogramma bij VIP-IT school je je in 5 maanden om tot Sof
 :::
 
 :::
-
 ## Doet u met ons mee?
 
 Als deelnemer aan het pact vragen wij u om met ons mee te denken over en mee te werken aan het vormgeven van de aangepaste opleiding. Daarnaast vragen we u om uw invloed en netwerk in te zetten om werkgevers te enthousiasmeren mensen met een visuele beperking in hun organisatie op te nemen.
